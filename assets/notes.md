@@ -7,7 +7,7 @@
  - immutability (nie ma zmiennych)
  - higher order functions
  - wszystko jest wyrazeniem (everything is and expression)
- - brak stanu!!!f
+ - brak stanu!!!
  - rekurencja
 
 ## Dlaczego funkcyjne programowanie
