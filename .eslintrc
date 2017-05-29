@@ -5,6 +5,7 @@
 "rules":
   "quotes": ["error", "single"]
   "indent": [2, 2, {"SwitchCase": 1}]
+  "func-style": 0
   "max-len": 0
   "no-magic-numbers": 0
   "react/prefer-es6-class": 0
