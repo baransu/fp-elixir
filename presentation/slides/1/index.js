@@ -15,7 +15,7 @@ export default (
         // 'higher order functions',
         'Wszystko jest wyrażeniem',
         'Kompozycja',
-        'Kekurencja'
+        'Rekurencja'
       ].map((text, index) => (
         <ListItem textColor="secondary" key={index}>{text}</ListItem>
       ))}

@@ -1,0 +1,34 @@
+let list = [1, 2, 3, 4, 5];
+
+let sum = 0;
+
+for (let i = 0; i < list.length; i++) {
+  sum = sum + list[i];
+}
+
+// sum = 15
+
+function sum(a, acc) {
+  return acc + a;
+}
+
+const sum = reduce(sum, list);
+
+// sum = 15
+
+reduce : (a -> b -> b) -> b -> List a -> b
+
+function filter(a, acc) {
+  if(a > 10) {
+    return acc.concat(a)
+  }
+  return a;
+}
+
+const maped = map(square, list)
+
+// maped = [1, 4, 9, 16, 25]
+
+const filtered = reduce(filter, maped)
+
+// filtered = [16, 25]

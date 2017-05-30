@@ -14,9 +14,8 @@
  - rekurencja
 
 Przykladowe algorytmy imperative vs functional
-- sortowanie (quick sort)
 - odwracanie tablicy
-- 
+-
 
 ## Dlaczego funkcyjne programowanie
  - wielowatkowosc

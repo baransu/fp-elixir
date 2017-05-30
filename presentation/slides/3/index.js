@@ -11,7 +11,7 @@ export default (
         'Lepsza wielowątkowość',
         'Deterministyczność',
         'Pure functions',
-        'Latwiejsze testowanie (unit testing)',
+        'Łatwiejsze testowanie (unit testing)',
         'Hot code deployment',
         'Time travel debugging'
       ].map((text, index) => (

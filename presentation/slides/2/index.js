@@ -10,8 +10,8 @@ export default (
     </Text>
     <SnippetSlide
       snippets={[
-        { lang: 'js', source: require('raw-loader!./statefull.js') },
-        { lang: 'js', source: require('raw-loader!./stateless.js') }
+        { lang: 'js', source: require('raw-loader!./statefull.txt') },
+        { lang: 'js', source: require('raw-loader!./stateless.txt') }
       ]}
     />
   </Slide>

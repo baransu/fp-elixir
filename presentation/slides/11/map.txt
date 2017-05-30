@@ -1,0 +1,18 @@
+let list = [1, 2, 3, 4, 5];
+
+function square(a) {
+  return a * a;
+}
+
+for (let i = 0; i < list.length; i++) {
+  list[i] = square(list[i]);
+}
+
+// list = [1, 4, 9, 15, 25]
+
+const newList = map(square, list);
+
+// list = [1, 2, 3, 4, 5]
+// newList = [1, 4, 9, 15, 25]
+
+map : (a -> b) -> List a -> List b

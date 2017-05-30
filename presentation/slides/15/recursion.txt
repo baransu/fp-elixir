@@ -1,0 +1,21 @@
+function fac(n) {
+  let factorial = 0
+  for(let i = 1; i < n; i++) {
+    factorial = factorial * i;
+  }
+  return factorial;
+}
+
+function fac(n) {
+  if(n == 0) return 1;
+  return n * fac(n - 1);
+}
+
+function _tailFac(n, acc) {
+  if(n == 0) return acc;
+  return _tailFac(n - 1, acc * n);
+}
+
+function fac(n) {
+  return _tail(n, 1);
+}

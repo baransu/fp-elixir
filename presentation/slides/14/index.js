@@ -3,14 +3,14 @@ import { Slide, List, ListItem, Heading } from 'spectacle';
 
 export default (
   <Slide>
-    <Heading size={1} fit caps textColor="tertiary">
-      Higher order functions
+    <Heading size={3} caps textColor="tertiary">
+      Pętle
     </Heading>
     <List>
       {[
-        'Funkcja jako argument',
-        'Funkcja może zwrócać funckje',
-        'Funkcja anonimowa (lambda)'
+        'Brak for, while, do while',
+        'Rekurencja',
+        'Rekurencja ogonowa'
       ].map((text, index) => (
         <ListItem textColor="secondary" key={index}>{text}</ListItem>
       ))}
