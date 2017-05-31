@@ -1,27 +1,3 @@
-# Programowanie funkcyjne in general
-
-## Czym jest funkcyjne programowanie
- - brak stanu
-
-### Brak stanu
- - czym jest stan? (przyklad)   
- - funkcyjne jako baza jezyka
- - pure functions (brak efektow ubocznych)
- - immutability (nie ma zmiennych)
- - higher order functions
- - wszystko jest wyrazeniem (everything is and expression)
- - kompozycja
- - rekurencja
-
-Przykladowe algorytmy imperative vs functional
-- odwracanie tablicy
--
-
-## Dlaczego funkcyjne programowanie
- - wielowatkowosc
- - hot code deployment
- - unit testing
- - zagniezdzone struktury danych (rekurencja!!!)
 
 # Elixir
 
@@ -79,6 +55,7 @@ Przykladowe algorytmy imperative vs functional
 - map, reduce jako baza FP
 
 ## Co dalej
+ - TDD (ogolnie testy)
  - procesy
  - OTP
  - meta programming

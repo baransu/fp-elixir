@@ -5,7 +5,7 @@ export default (
   <CodeSlide
     transition={[]}
     lang="js"
-    code={require('raw-loader!./hof.js')}
+    code={require('raw-loader!./hof.txt')}
     ranges={[
       { loc: [0, 34], title: 'Przykłady' },
       { loc: [0, 1] }, // header

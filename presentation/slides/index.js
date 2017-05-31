@@ -15,3 +15,5 @@ export mapReduce from './10';
 export map from './11';
 export reduce from './12';
 export composition from './13';
+export elixir from './16';
+export primitives from './17';

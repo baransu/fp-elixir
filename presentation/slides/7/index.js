@@ -9,7 +9,7 @@ export default (
     <List>
       {[
         'Brak efektów ubocznych',
-        'Deterministycznoś',
+        'Deterministyczność',
         'Unit testing',
         'Kompozycja'
       ].map((text, index) => (
