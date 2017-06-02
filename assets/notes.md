@@ -32,17 +32,6 @@
 - cond ( true as else)
 - if/unless
 
-## Binarki, stringi oraz listy charow
- - to be defined
-
-## Keyword lists
-- [{:a, 1}, {:b, 1}]
-- [a: 1, b: 2]
-- k_list[:a]
-
-## Mapy
- - to be defined
-
 ## Moduly i funkcje
 - moduł jako grupa funkcji
 - def/2, defp/2
@@ -53,6 +42,15 @@
 - jak zastapic imperatywne petle
 - tail call
 - map, reduce jako baza FP
+
+## Binarki, stringi oraz listy charow
+
+## Keyword lists
+- [{:a, 1}, {:b, 1}]
+- [a: 1, b: 2]
+- k_list[:a]
+
+## Mapy
 
 ## Co dalej
  - TDD (ogolnie testy)

@@ -4,17 +4,21 @@ import { Slide, List, ListItem, Heading } from 'spectacle';
 export default (
   <Slide>
     <Heading size={1} fit caps textColor="tertiary">
-      Czym jest Elixir?
+      Co dalej?
     </Heading>
     <List>
       {[
-        'Działa na Erlang VM',
-        'Dynamiczny funkcyjny język',
-        'Skalowalny',
-        'Fault-tolerant'
+        'Pozostała składnia',
+        'Procesy',
+        'OTP',
+        'TDD',
+        'Meta programming',
+        'Mix',
+        'Erlang libraries'
       ].map((text, index) => (
         <ListItem textColor="secondary" key={index}>{text}</ListItem>
       ))}
     </List>
+
   </Slide>
 );
