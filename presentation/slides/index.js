@@ -26,6 +26,7 @@ export elixirResursion from './23';
 export stringBinCharList from './24';
 export keyword from './25';
 export elixirMap from './26';
+export enumStream from './enum_stream';
 export nextHeader from './27';
 export next from './28';
 export resources from './29';
